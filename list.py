@@ -7,7 +7,7 @@ list.sort(key=None,reverse=False):对列表中的元素进行排序(参数可用
 list.reverse():反转列表中的元素。
 """
 
-list_hogwarts=[1,2,3]
+list_hogwarts = [1, 2, 3]
 list_hogwarts.append(0)
 list_hogwarts.append(2)
 list_hogwarts.append(4)
