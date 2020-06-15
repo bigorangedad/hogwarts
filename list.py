@@ -6,10 +6,16 @@ list.pop([i]):删除列表中给定位置的元素并返回它。如果没有给
 list.sort(key=None,reverse=False):对列表中的元素进行排序(参数可用于自定义排序，解释请参见 sorted())。
 list.reverse():反转列表中的元素。
 """
+#
+# list_hogwarts = [1, 2, 3]
+# list_hogwarts.append(0)
+# list_hogwarts.append(2)
+# list_hogwarts.append(4)
+# list_hogwarts.append(6)
+# print(list_hogwarts)
 
-list_hogwarts = [1, 2, 3]
-list_hogwarts.append(0)
-list_hogwarts.append(2)
-list_hogwarts.append(4)
-list_hogwarts.append(6)
-print(list_hogwarts)
+def func():
+    print("fun")
+    return 0
+func()
+print(f"1,{func()}")
